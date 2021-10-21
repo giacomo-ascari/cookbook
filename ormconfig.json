@@ -1,0 +1,24 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 1111,
+    "username": "hmmm",
+    "password": "hmmmmmmm",
+    "database": "cookbook_dev",
+    "synchronize": true,
+    "entities": [
+      "js/entity/*.js"
+    ],
+    "subscribers": [
+      "js/subscriber/*.js"
+    ],
+    "migrations": [
+      "js/migration/*.js"
+    ],
+    "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+    },
+    "timezone": "UTC"
+  }
