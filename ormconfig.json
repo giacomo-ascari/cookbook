@@ -1,9 +1,9 @@
 {
     "type": "postgres",
-    "host": "localhost",
-    "port": 1111,
-    "username": "hmmm",
-    "password": "hmmmmmmm",
+    "host": "secret",
+    "port": 5432,
+    "username": "secret",
+    "password": "secret",
     "database": "cookbook_dev",
     "synchronize": true,
     "entities": [
