@@ -1,11 +1,10 @@
 // IMPORTS
 import express from "express";
+import cors from 'cors';
 import router, { init } from './router';
 import cluster from "cluster";
 import log from "./utils/log";
 import http from 'http';
-import https from 'https';
-import os from 'os';
 import * as dotenv from 'dotenv';
 
 // VARIABLES
@@ -40,6 +39,8 @@ async function main() {
         for (var i = 0; i < workers_count; i++) {
             cluster.fork();
         }
+
+        log("master",`listening on http://localhost:${process.env.PORT}${process.env.BASE_URL}`, "s");
     
     } else if (cluster.isWorker) {
     
@@ -55,8 +56,16 @@ async function main() {
         let init_result = await router.init();
         if (init_result)
             process.exit()
-        app.use(process.env.BASE_URL as unknown as string, router.router as express.Router);
-    
+        
+        let base_url = process.env.BASE_URL as unknown as string;
+        /*app.use(cors({
+            origin: `http://localhost:${process.env.PORT}`,
+            credentials: true
+        }))*/
+        app.use(cors());
+        app.use(base_url, express.static("public"));
+        app.use(base_url + "/api", router.router as express.Router);
+
         let server: http.Server = http.createServer(app)
         server.listen(process.env.PORT || 80)
     }

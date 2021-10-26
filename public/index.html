@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Giacomo Ascari">
+  <title>Ricettario</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+
+  <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body class="py-4" onload="get_recipes()">
+
+  <div class="container">
+
+    <h1>Ricettario</h1>
+
+    <div id="recipe_list"></div>
+
+    <!--style="display: None;"-->
+    <div id="recipe_template" class="row container themed-container-light">
+      <div class="col">
+        <h2>title</h2>
+        <h4>subtitle</h4>
+        <p>from</p>
+      </div>
+      <div class="col-lg-auto">
+        <p><i>creation</i></p>
+        <p><i>update</i></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,2769 @@
+[MASTER] time: Tue Oct 26 2021 10:58:30 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 16970
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] worker pid 17017 forked
+[MASTER] worker pid 17023 forked
+[MASTER] worker pid 17023 exited
+[MASTER] worker pid 17051 forked
+[MASTER] worker pid 17017 exited
+[MASTER] worker pid 17070 forked
+[MASTER] worker pid 17070 exited
+[MASTER] worker pid 17100 forked
+[MASTER] worker pid 17051 exited
+[MASTER] worker pid 17106 forked
+[MASTER] worker pid 17106 exited
+[MASTER] worker pid 17138 forked
+[MASTER] worker pid 17100 exited
+[MASTER] worker pid 17151 forked
+[MASTER] worker pid 17138 exited
+[MASTER] worker pid 17199 forked
+[MASTER] worker pid 17151 exited
+[MASTER] worker pid 17210 forked
+[MASTER] worker pid 17199 exited
+[MASTER] worker pid 17237 forked
+[MASTER] worker pid 17210 exited
+[MASTER] worker pid 17256 forked
+[MASTER] worker pid 17237 exited
+[MASTER] worker pid 17298 forked
+[MASTER] worker pid 17256 exited
+[MASTER] worker pid 17317 forked
+[MASTER] time: Tue Oct 26 2021 10:59:20 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 17660
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] worker pid 17706 forked
+[MASTER] worker pid 17712 forked
+[MASTER] worker pid 17712 exited
+[MASTER] worker pid 17746 forked
+[MASTER] worker pid 17706 exited
+[MASTER] worker pid 17765 forked
+[MASTER] worker pid 17746 exited
+[MASTER] worker pid 17784 forked
+[MASTER] worker pid 17765 exited
+[MASTER] worker pid 17803 forked
+[MASTER] worker pid 17784 exited
+[MASTER] worker pid 17824 forked
+[MASTER] worker pid 17803 exited
+[MASTER] worker pid 17835 forked
+[MASTER] worker pid 17824 exited
+[MASTER] worker pid 17887 forked
+[MASTER] worker pid 17835 exited
+[MASTER] worker pid 17894 forked
+[MASTER] worker pid 17887 exited
+[MASTER] worker pid 17925 forked
+[MASTER] worker pid 17894 exited
+[MASTER] worker pid 17931 forked
+[MASTER] time: Tue Oct 26 2021 10:59:53 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 18346
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] worker pid 18393 forked
+[MASTER] worker pid 18399 forked
+[WORKER] WPID: 18393
+	TypeORM connection established
+[MASTER] worker pid 18399 exited
+[MASTER] worker pid 18432 forked
+[WORKER] WPID: 18432
+	TypeORM connection established
+[MASTER] time: Tue Oct 26 2021 11:39:58 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 22004
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] worker pid 22043 forked
+[MASTER] worker pid 22049 forked
+[WORKER] WPID: 22043
+	TypeORM connection established
+[WORKER] WPID: 22049
+	TypeORM connection established
+[MASTER] time: Tue Oct 26 2021 11:42:03 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 22546
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] worker pid 22584 forked
+[MASTER] worker pid 22583 forked
+[WORKER] WPID: 22584
+	TypeORM connection established
+[WORKER] WPID: 22583
+	TypeORM connection established
+[WORKER] GET /cookbook
+	FROM: ::ffff:127.0.0.1 | TIME: 2021-10-26T09:42:46.954Z
+	WPID: 22584
+	HEADER: host:127.0.0.1:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 11:44:30 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 23002
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000//cookbook)
+[MASTER] worker pid 23039 forked
+[MASTER] worker pid 23045 forked
+[WORKER] WPID: 23045
+	TypeORM connection established
+[WORKER] WPID: 23039
+	TypeORM connection established
+[MASTER] time: Tue Oct 26 2021 11:44:44 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 23430
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 23470 forked
+[MASTER] worker pid 23476 forked
+[WORKER] WPID: 23476
+	TypeORM connection established
+[WORKER] WPID: 23470
+	TypeORM connection established
+[WORKER] GET /cookbook
+	FROM: ::1 | TIME: 2021-10-26T09:44:45.786Z
+	WPID: 23476
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AXXuP3zAc-vtOW7xA5lJ7ueNTW2pcp19S.KJyEhEL9qXgF77PMsToMLMkTXZW8koO0upNIv0F3cA0
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 11:49:49 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 24002
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 24033 forked
+[MASTER] worker pid 24039 forked
+[WORKER] WPID: 24033
+	TypeORM connection established
+[WORKER] WPID: 24039
+	TypeORM connection established
+[WORKER] GET /cookbook
+	FROM: ::1 | TIME: 2021-10-26T09:49:51.187Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A5luFUwIPBiM0f6mbkWbSG56Ne5ukb_WX.SEV4%2FfMVdWgS70cV47vJ%2B027nbEcAYyTguLKvDNym0Q
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T09:49:55.316Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ACHtO9rGUQTm5V9Q6PMFNjDNcGFFrSbMJ.KGc4mEhLPmLaH8pBbkxKu9cs48CeJ70dmPV7VT0x4vk
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/index.html
+	FROM: ::1 | TIME: 2021-10-26T09:49:59.299Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ACHtO9rGUQTm5V9Q6PMFNjDNcGFFrSbMJ.KGc4mEhLPmLaH8pBbkxKu9cs48CeJ70dmPV7VT0x4vk
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook
+	FROM: ::1 | TIME: 2021-10-26T09:50:02.643Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ACHtO9rGUQTm5V9Q6PMFNjDNcGFFrSbMJ.KGc4mEhLPmLaH8pBbkxKu9cs48CeJ70dmPV7VT0x4vk
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/test
+	FROM: ::1 | TIME: 2021-10-26T09:50:13.881Z
+	WPID: 24039
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ACHtO9rGUQTm5V9Q6PMFNjDNcGFFrSbMJ.KGc4mEhLPmLaH8pBbkxKu9cs48CeJ70dmPV7VT0x4vk
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/test
+	FROM: ::1 | TIME: 2021-10-26T09:50:21.319Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3At1ayc1KHo922z1amRRkn9zLQq3fw2J0w.T2%2BC2Z2fWPuJqgcntsuSUQ%2BRAGttSAlsBORPDm%2BS8DI
+	HEADER: if-none-match:W/"7-ONSl6qXIrRUbOvNEd/ujcDcPC+8"
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/test
+	FROM: ::1 | TIME: 2021-10-26T09:50:22.986Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AYXyfoeXdfU2ghjqdTgz6OQfrCDpD_2zb.E0OopUR4pr4D9o67o6m6ns3C2YYX%2FmVEM%2FduIralxZk
+	HEADER: if-none-match:W/"7-ONSl6qXIrRUbOvNEd/ujcDcPC+8"
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook
+	FROM: ::1 | TIME: 2021-10-26T09:50:40.430Z
+	WPID: 24039
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AYXyfoeXdfU2ghjqdTgz6OQfrCDpD_2zb.E0OopUR4pr4D9o67o6m6ns3C2YYX%2FmVEM%2FduIralxZk
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook
+	FROM: ::1 | TIME: 2021-10-26T09:51:05.286Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A4cIwKna-RsVgAr6kiIBeYQTD37GeOFhY.b0%2B2c1yfLScuLx60WoMVTGMfOlB63%2BV9cbtEODIOkgM
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook
+	FROM: ::1 | TIME: 2021-10-26T09:51:08.280Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AsBgOAqZUq4mon9vCgKpQ3IVpHnsIU4y0.BYf7REZ3vyFBqx0utLNGNfTwxHS5cy8mT%2BbxdZk%2Bt6A
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook
+	FROM: ::1 | TIME: 2021-10-26T09:51:12.843Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AsBgOAqZUq4mon9vCgKpQ3IVpHnsIU4y0.BYf7REZ3vyFBqx0utLNGNfTwxHS5cy8mT%2BbxdZk%2Bt6A
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook
+	FROM: ::1 | TIME: 2021-10-26T09:53:39.878Z
+	WPID: 24033
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AsBgOAqZUq4mon9vCgKpQ3IVpHnsIU4y0.BYf7REZ3vyFBqx0utLNGNfTwxHS5cy8mT%2BbxdZk%2Bt6A
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 11:54:52 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 25186
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 25223 forked
+[MASTER] worker pid 25229 forked
+[WORKER] WPID: 25229
+	TypeORM connection established
+[WORKER] WPID: 25223
+	TypeORM connection established
+[MASTER] time: Tue Oct 26 2021 11:54:58 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 25499
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 25531 forked
+[MASTER] worker pid 25537 forked
+[WORKER] WPID: 25531
+	TypeORM connection established
+[WORKER] WPID: 25537
+	TypeORM connection established
+[WORKER] GET /cookbook
+	FROM: ::1 | TIME: 2021-10-26T09:55:02.480Z
+	WPID: 25531
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AsBgOAqZUq4mon9vCgKpQ3IVpHnsIU4y0.BYf7REZ3vyFBqx0utLNGNfTwxHS5cy8mT%2BbxdZk%2Bt6A
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T09:55:02.486Z
+	WPID: 25531
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AAcEEPpM-DTQg2yLEk7scnm2fTtk0fyM4.ewKqZAKdsCr%2BcbbHSWeoUVUFcv4Hg8cKEfjR%2FLBo818
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T09:55:02.498Z
+	WPID: 25531
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AAcEEPpM-DTQg2yLEk7scnm2fTtk0fyM4.ewKqZAKdsCr%2BcbbHSWeoUVUFcv4Hg8cKEfjR%2FLBo818
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T09:55:02.500Z
+	WPID: 25531
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AAcEEPpM-DTQg2yLEk7scnm2fTtk0fyM4.ewKqZAKdsCr%2BcbbHSWeoUVUFcv4Hg8cKEfjR%2FLBo818
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T09:55:02.502Z
+	WPID: 25537
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AAcEEPpM-DTQg2yLEk7scnm2fTtk0fyM4.ewKqZAKdsCr%2BcbbHSWeoUVUFcv4Hg8cKEfjR%2FLBo818
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/favicon.ico
+	FROM: ::1 | TIME: 2021-10-26T09:55:02.525Z
+	WPID: 25537
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:image
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Akop_thzhiEBPpB9cUA1x9m2GLcLPisIb.RCriyrQssCJmFopQZYxQvvSZeD%2BhJmNTS9Z4jUT9guA
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 11:55:19 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 25963
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 26002 forked
+[MASTER] worker pid 26008 forked
+[WORKER] WPID: 26002
+	TypeORM connection established
+[WORKER] WPID: 26008
+	TypeORM connection established
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T09:55:32.295Z
+	WPID: 26002
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Akop_thzhiEBPpB9cUA1x9m2GLcLPisIb.RCriyrQssCJmFopQZYxQvvSZeD%2BhJmNTS9Z4jUT9guA
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T09:55:32.296Z
+	WPID: 26008
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Akop_thzhiEBPpB9cUA1x9m2GLcLPisIb.RCriyrQssCJmFopQZYxQvvSZeD%2BhJmNTS9Z4jUT9guA
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T09:55:37.602Z
+	WPID: 26002
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A1VJa5rTArod8aqK7hq4tfysayMBzLW3_.yrLZ3feU%2BtGHbjmPaiy1SulffbGUMJHKnupaDc91tCU
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T09:55:37.614Z
+	WPID: 26002
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A_4de3NWY3kfPl-tQYN-1sO1-ACibcWLA.sj%2FNBnAOKrIKTM9nTEBGDSigm9cuTsSkJdXrMhTT1xI
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T09:55:37.615Z
+	WPID: 26008
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A_4de3NWY3kfPl-tQYN-1sO1-ACibcWLA.sj%2FNBnAOKrIKTM9nTEBGDSigm9cuTsSkJdXrMhTT1xI
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T09:55:37.616Z
+	WPID: 26002
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A_4de3NWY3kfPl-tQYN-1sO1-ACibcWLA.sj%2FNBnAOKrIKTM9nTEBGDSigm9cuTsSkJdXrMhTT1xI
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 11:56:09 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 26514
+[MASTER] worker count: 2
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 26554 forked
+[MASTER] port: 3000
+[MASTER] worker pid 26560 forked
+[WORKER] WPID: 26560
+	TypeORM connection established
+[WORKER] WPID: 26554
+	TypeORM connection established
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T09:56:11.051Z
+	WPID: 26560
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AgpRdwL3vl4DyZSoXhRRqbWOWDqQKrQOR.kCDlaP%2FwyCjrVQMo0ycF4XyHd8Fl9k5hc3dRkDa0hCw
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T09:56:11.066Z
+	WPID: 26560
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Ajv9uVC6O8vCDeVrUFC7K_INy9v83y8yL.F75ujVvavrZfPLW9sfcupNHFu2qQhUNMGpj9r9AmDkE
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T09:56:11.068Z
+	WPID: 26560
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Ajv9uVC6O8vCDeVrUFC7K_INy9v83y8yL.F75ujVvavrZfPLW9sfcupNHFu2qQhUNMGpj9r9AmDkE
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T09:56:11.069Z
+	WPID: 26554
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Ajv9uVC6O8vCDeVrUFC7K_INy9v83y8yL.F75ujVvavrZfPLW9sfcupNHFu2qQhUNMGpj9r9AmDkE
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/index.html
+	FROM: ::1 | TIME: 2021-10-26T09:57:02.761Z
+	WPID: 26554
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A57yKrSf8Gk_3pNEkSJTztTzI1KimahQf.%2FRv59I9Uoqoq%2BTPu4PBrEC6pXi%2BShFyaECUQktE3wOc
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T09:57:58.830Z
+	WPID: 26560
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A57yKrSf8Gk_3pNEkSJTztTzI1KimahQf.%2FRv59I9Uoqoq%2BTPu4PBrEC6pXi%2BShFyaECUQktE3wOc
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T09:57:58.845Z
+	WPID: 26560
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A739rQVSSWTaTHNIfUhAIkF0swjcAzBPo.tjKSNSRP8tNQu4cwUiuAUPDVN6XpHZp09b7nVod%2B9uw
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T09:57:58.845Z
+	WPID: 26554
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A739rQVSSWTaTHNIfUhAIkF0swjcAzBPo.tjKSNSRP8tNQu4cwUiuAUPDVN6XpHZp09b7nVod%2B9uw
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T09:57:58.846Z
+	WPID: 26560
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A739rQVSSWTaTHNIfUhAIkF0swjcAzBPo.tjKSNSRP8tNQu4cwUiuAUPDVN6XpHZp09b7nVod%2B9uw
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 11:58:03 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 27044
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 27082 forked
+[MASTER] worker pid 27088 forked
+[WORKER] WPID: 27088
+	TypeORM connection established
+[WORKER] WPID: 27082
+	TypeORM connection established
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T09:58:06.462Z
+	WPID: 27088
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ArtI2wZ02q211k_TqPS_TkYE22Dac0-Jl.xJGQr7DHJFylN8WB%2FKnTXxKK79awasGmSNsrGUHJebU
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T09:58:06.474Z
+	WPID: 27088
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Aot-3cUr-KyMA8VTL_EWwC7KC4GTkALJb.zvX6%2FMfJatZdAofvMkfhMglaI0PJYI4kBSRRPMHpE%2Bg
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T09:58:06.477Z
+	WPID: 27088
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Aot-3cUr-KyMA8VTL_EWwC7KC4GTkALJb.zvX6%2FMfJatZdAofvMkfhMglaI0PJYI4kBSRRPMHpE%2Bg
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T09:58:06.480Z
+	WPID: 27082
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Aot-3cUr-KyMA8VTL_EWwC7KC4GTkALJb.zvX6%2FMfJatZdAofvMkfhMglaI0PJYI4kBSRRPMHpE%2Bg
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css.map
+	FROM: ::1 | TIME: 2021-10-26T09:58:06.492Z
+	WPID: 27082
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: pragma:no-cache
+	HEADER: cache-control:no-cache
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AjrPE8LueSa8fP_xdUqlcDdeS0AM0w405.SRC1jA8aEMQ8wlDhCIT%2BP7pB0a4Lu0Cr%2FilfqXGWV1E
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/recipe
+	FROM: ::1 | TIME: 2021-10-26T09:58:06.498Z
+	WPID: 27082
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AjrPE8LueSa8fP_xdUqlcDdeS0AM0w405.SRC1jA8aEMQ8wlDhCIT%2BP7pB0a4Lu0Cr%2FilfqXGWV1E
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:02:12 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 28242
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 28280 forked
+[MASTER] worker pid 28286 forked
+[WORKER] WPID: 28280
+	TypeORM connection established
+[WORKER] WPID: 28286
+	TypeORM connection established
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:02:17.640Z
+	WPID: 28280
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AjrPE8LueSa8fP_xdUqlcDdeS0AM0w405.SRC1jA8aEMQ8wlDhCIT%2BP7pB0a4Lu0Cr%2FilfqXGWV1E
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:03:37.244Z
+	WPID: 28280
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Aq3mxWiIC7EFO2MyHgehQeY7TspUqKiwq.TDYDs9RTAgMaPv%2FMlQ4N1oooZrMJo5XbAwvnnGD9DqQ
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:03:37.260Z
+	WPID: 28280
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Aq3mxWiIC7EFO2MyHgehQeY7TspUqKiwq.TDYDs9RTAgMaPv%2FMlQ4N1oooZrMJo5XbAwvnnGD9DqQ
+	HEADER: if-none-match:W/"25fef-17cbbe6b9e1"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:20:32 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T10:03:37.263Z
+	WPID: 28280
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Aq3mxWiIC7EFO2MyHgehQeY7TspUqKiwq.TDYDs9RTAgMaPv%2FMlQ4N1oooZrMJo5XbAwvnnGD9DqQ
+	HEADER: if-none-match:W/"863-17cbbf9246a"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:40:39 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:03:37.262Z
+	WPID: 28286
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Aq3mxWiIC7EFO2MyHgehQeY7TspUqKiwq.TDYDs9RTAgMaPv%2FMlQ4N1oooZrMJo5XbAwvnnGD9DqQ
+	HEADER: if-none-match:W/"337-17cbbf15adf"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:32:09 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:03:37.441Z
+	WPID: 28286
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AGJy9cNb37CTnmC7jTOIvYdENB0qVpM6L.zvjdi%2BjH3NARHVt%2FqdrY8QwlyaNaG6q%2BRLambTn34GQ
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:03:48.192Z
+	WPID: 28286
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AGJy9cNb37CTnmC7jTOIvYdENB0qVpM6L.zvjdi%2BjH3NARHVt%2FqdrY8QwlyaNaG6q%2BRLambTn34GQ
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:04:53.413Z
+	WPID: 28280
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: purpose:prefetch
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AGJy9cNb37CTnmC7jTOIvYdENB0qVpM6L.zvjdi%2BjH3NARHVt%2FqdrY8QwlyaNaG6q%2BRLambTn34GQ
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:05:02.992Z
+	WPID: 28286
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A6DZOVmkK-oDPbKoC6M21X46azxQNYSsz.7VW5KG23lvcVP1W8MWiWDNXQgA2%2F5bDU4m4IIaUZLlA
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:05:05.195Z
+	WPID: 28286
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AZNNpWpXgdm1O8EBoLM-TLQX2-0W0dbST.MXzwihfMq5miH98J1AT4W3CCA9l9fPLXKPpqxr0hCjA
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:05:05.206Z
+	WPID: 28280
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AZNNpWpXgdm1O8EBoLM-TLQX2-0W0dbST.MXzwihfMq5miH98J1AT4W3CCA9l9fPLXKPpqxr0hCjA
+	HEADER: if-none-match:W/"25fef-17cbbe6b9e1"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:20:32 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:05:05.207Z
+	WPID: 28286
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AZNNpWpXgdm1O8EBoLM-TLQX2-0W0dbST.MXzwihfMq5miH98J1AT4W3CCA9l9fPLXKPpqxr0hCjA
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T10:05:05.209Z
+	WPID: 28286
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AZNNpWpXgdm1O8EBoLM-TLQX2-0W0dbST.MXzwihfMq5miH98J1AT4W3CCA9l9fPLXKPpqxr0hCjA
+	HEADER: if-none-match:W/"898-17cbc0c8af4"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 10:01:51 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:05:05.266Z
+	WPID: 28286
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AeEx_OpDyeH5eUFYj21ot9eZWHhT8zn0H.f3DRNFheqpQOIYzAWrR3%2F6%2FDsOJm9BEZTChnaWqsPvk
+	HEADER: if-none-match:W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:05:17 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 29396
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 29442 forked
+[MASTER] worker pid 29448 forked
+[WORKER] WPID: 29442
+	TypeORM connection established
+[WORKER] WPID: 29448
+	TypeORM connection established
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:05:19.231Z
+	WPID: 29442
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AeEx_OpDyeH5eUFYj21ot9eZWHhT8zn0H.f3DRNFheqpQOIYzAWrR3%2F6%2FDsOJm9BEZTChnaWqsPvk
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:09:35 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 30382
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 30425 forked
+[MASTER] worker pid 30419 forked
+[WORKER] WPID: 30419
+	TypeORM connection established
+[WORKER] WPID: 30425
+	TypeORM connection established
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:09:38.468Z
+	WPID: 30419
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AkvVlvLN6Hq5l1KDS3zPu4SmqegLthbJ6.6jfRTs%2FxwnescXZ2qXDeoc1GY%2FxloziWeSwrzPtJJf8
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:09:57.697Z
+	WPID: 30425
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AL3q0okXi7odyIIrmB1V8tgQyPfPpIkdE.Rt3bW2qE9Nn8rFx0pckU2NUOCp0tCFDdMAf%2FwtbxY44
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:10:04.564Z
+	WPID: 30425
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: purpose:prefetch
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AY7a2LBRaieVn2YsnqVOHhysuG-YgwGc_.zK%2BwoWSDMm0uSxNM9utCmIqPlKvUcU0xzBuAH1VscOA
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:10:04.572Z
+	WPID: 30419
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:application/signed-exchange;v=b3;q=0.7,*/*;q=0.8
+	HEADER: purpose:prefetch
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AY7a2LBRaieVn2YsnqVOHhysuG-YgwGc_.zK%2BwoWSDMm0uSxNM9utCmIqPlKvUcU0xzBuAH1VscOA
+	HEADER: if-none-match:W/"337-17cbbf15adf"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:32:09 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:10:04.573Z
+	WPID: 30425
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:application/signed-exchange;v=b3;q=0.7,*/*;q=0.8
+	HEADER: purpose:prefetch
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AY7a2LBRaieVn2YsnqVOHhysuG-YgwGc_.zK%2BwoWSDMm0uSxNM9utCmIqPlKvUcU0xzBuAH1VscOA
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T10:10:04.575Z
+	WPID: 30425
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:application/signed-exchange;v=b3;q=0.7,*/*;q=0.8
+	HEADER: purpose:prefetch
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AY7a2LBRaieVn2YsnqVOHhysuG-YgwGc_.zK%2BwoWSDMm0uSxNM9utCmIqPlKvUcU0xzBuAH1VscOA
+	HEADER: if-none-match:W/"898-17cbc0c8af4"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 10:01:51 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/test
+	FROM: ::1 | TIME: 2021-10-26T10:10:05.509Z
+	WPID: 30425
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AAC2jtxY3tzUEsMlY-sMAViYgo74nSgB8.Yt7X2z8XHj97Wme3ifoI5QtAU2re%2BSBFEXWTmdbnO9c
+	HEADER: if-none-match:W/"7-ONSl6qXIrRUbOvNEd/ujcDcPC+8"
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/index.html
+	FROM: ::1 | TIME: 2021-10-26T10:10:11.714Z
+	WPID: 30419
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AAC2jtxY3tzUEsMlY-sMAViYgo74nSgB8.Yt7X2z8XHj97Wme3ifoI5QtAU2re%2BSBFEXWTmdbnO9c
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:11:44 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 31279
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 31313 forked
+[MASTER] worker pid 31319 forked
+[WORKER] WPID: 31319
+	TypeORM connection established
+[WORKER] WPID: 31313
+	TypeORM connection established
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:11:45.941Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AFZRc4nlxutJa7vbEh6uiF__33WR85nG2.AdzawZxG%2BpRjM7F%2BEt7cIPnplOkbIV50wBLjQaqg09M
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:11:46.094Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AT3voCbZRGcv05HDbcKvlOK9FVVA7GDIR.w334fKItqJ5%2FSzTIuUC4UV1qonXjYaSSmxX93%2BFsKW8
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/logout
+	FROM: ::1 | TIME: 2021-10-26T10:11:51.462Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AT3voCbZRGcv05HDbcKvlOK9FVVA7GDIR.w334fKItqJ5%2FSzTIuUC4UV1qonXjYaSSmxX93%2BFsKW8
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:06.986Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ArV1JvOCWLWugx7E8oW41KxpgE5PPyayz.f7aYZfSi6tb%2F%2BXzukvX7hHGFUsd%2FzLZDhvavg2BuYKA
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:13.677Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Ad-R1SsrG8l3XPLolylvl1YjOyGCs7djv.9mMevG1ad4Nq56xWGd9T2%2Ft8Rn2ITXm7eYosgiTQ8xc
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:19.974Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AAJiQD1OUhO7bpvHEeCx7i4wexxlJZjbx.JNnLR99xLq%2BGNSdOxJD3JT2ZiQ48O%2FUb90H3yFkr2jc
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:28.609Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AiI_MHZfy8ansGN-OHlHeWhvZtjW5wZzu.J041w9gUSt4wFyMV%2FxwxWoBkqfLKp8TF7KHew6E9Ow0
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:32.549Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AgjhpsKy8FdFgZvkiXvvrbzCdcRnV2b8s.vdVbbzkpWYLQl332VdDzpRZ1Vm5W7tQRRIMIEFknIpY
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:12:32.559Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AgjhpsKy8FdFgZvkiXvvrbzCdcRnV2b8s.vdVbbzkpWYLQl332VdDzpRZ1Vm5W7tQRRIMIEFknIpY
+	HEADER: if-none-match:W/"25fef-17cbbe6b9e1"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:20:32 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:12:32.560Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AgjhpsKy8FdFgZvkiXvvrbzCdcRnV2b8s.vdVbbzkpWYLQl332VdDzpRZ1Vm5W7tQRRIMIEFknIpY
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T10:12:32.562Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AgjhpsKy8FdFgZvkiXvvrbzCdcRnV2b8s.vdVbbzkpWYLQl332VdDzpRZ1Vm5W7tQRRIMIEFknIpY
+	HEADER: if-none-match:W/"898-17cbc0c8af4"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 10:01:51 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:12:32.623Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AU6fnzF49erckg4fGrTop1igmctm140Zy.aFlibmLIwr8HZY%2BoEOh7iN4H2STYMld7OvinwriCRxc
+	HEADER: if-none-match:W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:38.117Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AU6fnzF49erckg4fGrTop1igmctm140Zy.aFlibmLIwr8HZY%2BoEOh7iN4H2STYMld7OvinwriCRxc
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:40.218Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AYyxUZzRFHY2BV2b78xlsr-Ezo9iTyWtD.wzE4mFKsN%2BU4r4t7HbTxoFUAE6F5n7%2Fhoev%2FtS3GRxc
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:12:40.230Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AYyxUZzRFHY2BV2b78xlsr-Ezo9iTyWtD.wzE4mFKsN%2BU4r4t7HbTxoFUAE6F5n7%2Fhoev%2FtS3GRxc
+	HEADER: if-none-match:W/"337-17cbbf15adf"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:32:09 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:12:40.230Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AYyxUZzRFHY2BV2b78xlsr-Ezo9iTyWtD.wzE4mFKsN%2BU4r4t7HbTxoFUAE6F5n7%2Fhoev%2FtS3GRxc
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T10:12:40.233Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AYyxUZzRFHY2BV2b78xlsr-Ezo9iTyWtD.wzE4mFKsN%2BU4r4t7HbTxoFUAE6F5n7%2Fhoev%2FtS3GRxc
+	HEADER: if-none-match:W/"898-17cbc0c8af4"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 10:01:51 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:12:40.306Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AJAF6DnSke-2WsUCPxRdB5U05qPz7bLUC.quIskmvgG8gwzVTVYfRiRG7KPF3YE5ZMFLJzIjCnEbI
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:42.678Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AJAF6DnSke-2WsUCPxRdB5U05qPz7bLUC.quIskmvgG8gwzVTVYfRiRG7KPF3YE5ZMFLJzIjCnEbI
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:44.537Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AJAF6DnSke-2WsUCPxRdB5U05qPz7bLUC.quIskmvgG8gwzVTVYfRiRG7KPF3YE5ZMFLJzIjCnEbI
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:12:44.548Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AJAF6DnSke-2WsUCPxRdB5U05qPz7bLUC.quIskmvgG8gwzVTVYfRiRG7KPF3YE5ZMFLJzIjCnEbI
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T10:12:44.549Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AJAF6DnSke-2WsUCPxRdB5U05qPz7bLUC.quIskmvgG8gwzVTVYfRiRG7KPF3YE5ZMFLJzIjCnEbI
+	HEADER: if-none-match:W/"898-17cbc0c8af4"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 10:01:51 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:12:44.551Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AJAF6DnSke-2WsUCPxRdB5U05qPz7bLUC.quIskmvgG8gwzVTVYfRiRG7KPF3YE5ZMFLJzIjCnEbI
+	HEADER: if-none-match:W/"25fef-17cbbe6b9e1"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:20:32 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:12:45.743Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A_K0-3bbId8UMWg6KlP2Ad_Ti33pG5XeL.0p%2Fi2HfGUAGED2VigpbEbcGyRWqjaXq387mlIAcbIVo
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:12:50.262Z
+	WPID: 31313
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: if-none-match:W/"337-17cbbf15adf"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:32:09 GMT
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A_K0-3bbId8UMWg6KlP2Ad_Ti33pG5XeL.0p%2Fi2HfGUAGED2VigpbEbcGyRWqjaXq387mlIAcbIVo
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:12:50.264Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: if-none-match:W/"25fef-17cbbe6b9e1"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:20:32 GMT
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A_K0-3bbId8UMWg6KlP2Ad_Ti33pG5XeL.0p%2Fi2HfGUAGED2VigpbEbcGyRWqjaXq387mlIAcbIVo
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css.map
+	FROM: ::1 | TIME: 2021-10-26T10:12:50.391Z
+	WPID: 31319
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: pragma:no-cache
+	HEADER: cache-control:no-cache
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A587QV5mgYn73PI9uL5DBc2jUaP9f5FZC.u3mdKjQOhl8tOcNdItzbND5h%2FyoFcYm2ZnXpjFa%2B3Bw
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:15:06 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 33106
+[MASTER] worker count: 2
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] port: 3000
+[MASTER] worker pid 33143 forked
+[MASTER] worker pid 33149 forked
+[WORKER] WPID: 33143
+	TypeORM connection established
+[WORKER] WPID: 33149
+	TypeORM connection established
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:15:08.212Z
+	WPID: 33143
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A587QV5mgYn73PI9uL5DBc2jUaP9f5FZC.u3mdKjQOhl8tOcNdItzbND5h%2FyoFcYm2ZnXpjFa%2B3Bw
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:15:21.141Z
+	WPID: 33149
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3Aqx47gU3EqLDb0xQbJ3BxHWH1pIMGmD1l.%2FJbksBLTU246vYdax7bXmAT8MaFjrYl%2BJhQ%2B8dmh1Qo
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:15:32.010Z
+	WPID: 33143
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AVsTq2isj-735p1M_i-6BCkRkD9x8c60S.Pn0DpR4CjFUMyv2e5kXu3q3HhmEh9U%2FSmI9xrJ2VPCk
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:22:18 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 33905
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 33942 forked
+[MASTER] worker pid 33948 forked
+[WORKER] WPID: 33942
+	TypeORM connection established
+[WORKER] WPID: 33948
+	TypeORM connection established
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:22:20.330Z
+	WPID: 33942
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A0vXLjqnsSDWcIlth5iGKrGVbZB96Xqjc.bu%2FVGw4LaI3%2BasbqmPPnJWt%2Bhixf%2BQHG%2FNBGkABCGOE
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:22:20.342Z
+	WPID: 33942
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AndHSsopOm-jSLdIIXwbsLdBWqz2ft7C1.xDWtdvHkDO4IiNA4p%2Bl58zbRx25%2FU%2Bb%2F0GDkZauhCpc
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:22:20.344Z
+	WPID: 33942
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AndHSsopOm-jSLdIIXwbsLdBWqz2ft7C1.xDWtdvHkDO4IiNA4p%2Bl58zbRx25%2FU%2Bb%2F0GDkZauhCpc
+	HEADER: if-none-match:W/"25fef-17cbbe6b9e1"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:20:32 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T10:22:20.347Z
+	WPID: 33948
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AndHSsopOm-jSLdIIXwbsLdBWqz2ft7C1.xDWtdvHkDO4IiNA4p%2Bl58zbRx25%2FU%2Bb%2F0GDkZauhCpc
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:22:20.363Z
+	WPID: 33948
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AmzGPyshONgT95hXKSEVPXWLjOMr4-_2m.TE35gBmnXB2ef5UlJ%2BepXN%2BrjuXLOIdWR3zKCCVlkFM
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:22:23.353Z
+	WPID: 33942
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: if-none-match:W/"337-17cbbf15adf"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:32:09 GMT
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AmzGPyshONgT95hXKSEVPXWLjOMr4-_2m.TE35gBmnXB2ef5UlJ%2BepXN%2BrjuXLOIdWR3zKCCVlkFM
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:22:23.353Z
+	WPID: 33948
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: if-none-match:W/"25fef-17cbbe6b9e1"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:20:32 GMT
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AmzGPyshONgT95hXKSEVPXWLjOMr4-_2m.TE35gBmnXB2ef5UlJ%2BepXN%2BrjuXLOIdWR3zKCCVlkFM
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css.map
+	FROM: ::1 | TIME: 2021-10-26T10:22:23.372Z
+	WPID: 33948
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: pragma:no-cache
+	HEADER: cache-control:no-cache
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A1vK0AAZOWk62gT78CrqPMrM1qDEY6anE.cS8jF7nw45eJ6vK3%2BZLiTSX9CiXWDD%2BvMTFT15OdDGA
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/
+	FROM: ::1 | TIME: 2021-10-26T10:22:31.792Z
+	WPID: 33948
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: cache-control:max-age=0
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: upgrade-insecure-requests:1
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+	HEADER: sec-fetch-site:none
+	HEADER: sec-fetch-mode:navigate
+	HEADER: sec-fetch-user:?1
+	HEADER: sec-fetch-dest:document
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ADiI5v54FzU4aK-Z4SoLMiSJNjZjKfvl6.o2MTupVcvOSq2rT1Ddru7fVCAj7ovnKRLHgYQgVWmdI
+	HEADER: if-none-match:W/"3f8-17cbbf2cb7c"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:33:43 GMT
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/style.css
+	FROM: ::1 | TIME: 2021-10-26T10:22:31.801Z
+	WPID: 33942
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: if-none-match:W/"337-17cbbf15adf"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:32:09 GMT
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ADiI5v54FzU4aK-Z4SoLMiSJNjZjKfvl6.o2MTupVcvOSq2rT1Ddru7fVCAj7ovnKRLHgYQgVWmdI
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css
+	FROM: ::1 | TIME: 2021-10-26T10:22:31.801Z
+	WPID: 33948
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: if-none-match:W/"25fef-17cbbe6b9e1"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 09:20:32 GMT
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:text/css,*/*;q=0.1
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:style
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ADiI5v54FzU4aK-Z4SoLMiSJNjZjKfvl6.o2MTupVcvOSq2rT1Ddru7fVCAj7ovnKRLHgYQgVWmdI
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/script.js
+	FROM: ::1 | TIME: 2021-10-26T10:22:31.803Z
+	WPID: 33948
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: if-none-match:W/"320-17cbc189e82"
+	HEADER: if-modified-since:Tue, 26 Oct 2021 10:15:02 GMT
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:script
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ADiI5v54FzU4aK-Z4SoLMiSJNjZjKfvl6.o2MTupVcvOSq2rT1Ddru7fVCAj7ovnKRLHgYQgVWmdI
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:22:31.814Z
+	WPID: 33948
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A0cprVBN_Fmt6d5MF1abLTVhSKA-zaK4V.y5%2FxvROr8Cd5vtJsci6oOaA3PNdqzQ3uDLNrV0se84k
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/bootstrap.min.css.map
+	FROM: ::1 | TIME: 2021-10-26T10:22:31.821Z
+	WPID: 33948
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: pragma:no-cache
+	HEADER: cache-control:no-cache
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:no-cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A_GACecK08Q-F6HiweZ-3jt0DDo8z_NwL.eB4%2BPnwnx4CsT2zTFd25%2Fdellv85WXk7%2FGrLT9MXzME
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:43:32 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 34976
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 35014 forked
+[MASTER] worker pid 35020 forked
+[WORKER] WPID: 35014
+	TypeORM connection established
+[WORKER] WPID: 35020
+	TypeORM connection established
+[MASTER] time: Tue Oct 26 2021 12:44:15 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 35370
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 35408 forked
+[MASTER] worker pid 35414 forked
+[WORKER] WPID: 35408
+	TypeORM connection established
+[WORKER] WPID: 35414
+	TypeORM connection established
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:44:16.618Z
+	WPID: 35414
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A_GACecK08Q-F6HiweZ-3jt0DDo8z_NwL.eB4%2BPnwnx4CsT2zTFd25%2Fdellv85WXk7%2FGrLT9MXzME
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:45:37 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 35844
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] worker pid 35883 forked
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 35889 forked
+[WORKER] WPID: 35889
+	TypeORM connection established
+[WORKER] WPID: 35883
+	TypeORM connection established
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:45:40.886Z
+	WPID: 35889
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ANxiALBWJd-vFc3W_4LQ-YWyEAlhIpTjU.qtJcrUIpu4JTiasqlWZ3cVzMSYBc6yEMrUwXQxstN8s
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:45:50 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 36188
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 36226 forked
+[MASTER] worker pid 36232 forked
+[WORKER] WPID: 36226
+	TypeORM connection established
+[WORKER] WPID: 36232
+	TypeORM connection established
+[MASTER] time: Tue Oct 26 2021 12:48:10 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 36848
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 36885 forked
+[MASTER] worker pid 36891 forked
+[WORKER] WPID: 36885
+	TypeORM connection established
+[WORKER] WPID: 36891
+	TypeORM connection established
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:48:12.971Z
+	WPID: 36891
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: pragma:no-cache
+	HEADER: cache-control:no-cache
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AvmDIO2VUj7HmZikI8HSoH72KDJ9AxQX9.4JDucitLp8UY8gCOc6Hvo%2BigkyuI6Wc0Wcgi7QnvYJw
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:48:17.811Z
+	WPID: 36891
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: pragma:no-cache
+	HEADER: cache-control:no-cache
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ATNUbFWNBUifbWv5gtD3VxvNwXaFUIPgg.TfJycj5JmYdMyrYBgPvvr2ZEtFfMDFDAWHaxyZSADG4
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:49:32 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 37311
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 37349 forked
+[MASTER] worker pid 37355 forked
+[WORKER] WPID: 37349
+	TypeORM connection established
+[WORKER] WPID: 37355
+	TypeORM connection established
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:49:36.010Z
+	WPID: 37355
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ATNUbFWNBUifbWv5gtD3VxvNwXaFUIPgg.TfJycj5JmYdMyrYBgPvvr2ZEtFfMDFDAWHaxyZSADG4
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:49:37.373Z
+	WPID: 37349
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AESQ4IvbvCN1QVtCpo-c_b9FcJ9Rzl8Vm.ezBPZ2842QJXUji5FduJSvvR2kQGRT%2FZnJpZziARG4Q
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:49:41.343Z
+	WPID: 37349
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: pragma:no-cache
+	HEADER: cache-control:no-cache
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AoO81dkYzfuVz9HOeXphTlAl_tns54kZZ.9%2Fx2qD1OEzWGbvwusUhWmopNerm%2BhpaHQicgWqLQzFE
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:51:17.166Z
+	WPID: 37355
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AoO81dkYzfuVz9HOeXphTlAl_tns54kZZ.9%2Fx2qD1OEzWGbvwusUhWmopNerm%2BhpaHQicgWqLQzFE
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:51:21 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] worker count: 2
+[MASTER] pid: 38020
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 38059 forked
+[MASTER] worker pid 38065 forked
+[WORKER] WPID: 38065
+	TypeORM connection established
+[WORKER] WPID: 38059
+	TypeORM connection established
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:51:23.983Z
+	WPID: 38059
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ASTR_zZz1EJJz5bdzbr5ng0Niwu4d8bCe.YAUThJqFCYUu6A3o39pVi3qE2Mzqm4uOseQ0El1G1xk
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:52:49 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 38479
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 38517 forked
+[MASTER] worker pid 38523 forked
+[WORKER] WPID: 38517
+	TypeORM connection established
+[WORKER] WPID: 38523
+	TypeORM connection established
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:52:51.861Z
+	WPID: 38523
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A-SudwGXRj0krMY8RiW2uBRCovq3qZ8z-.CiX%2FZJfCepw%2BrbdjdYrTIRRuKtiw0PU8b9KCC5Yq%2FgE
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:52:53.187Z
+	WPID: 38517
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3A_qEp8XHO_C6oPCS2jBcAY3KEDnb7eyGn.gZbhuyzk0zadv8SD6onYEaS38ahRMIKH4p9d%2BuT8owc
+	QUERY: {}
+	BODY: {}
+[MASTER] time: Tue Oct 26 2021 12:54:49 GMT+0200 (Ora legale dell’Europa centrale)
+[MASTER] pid: 38980
+[MASTER] worker count: 2
+[MASTER] port: 3000
+[MASTER] listening on http://localhost:3000/cookbook
+[MASTER] worker pid 39017 forked
+[MASTER] worker pid 39023 forked
+[WORKER] WPID: 39017
+	TypeORM connection established
+[WORKER] WPID: 39023
+	TypeORM connection established
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:54:51.290Z
+	WPID: 39017
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3ABJ4GcrgfeRil6OFl4IAAKbsPM6TpXzLm.P6T5pxajmjI1d2zQRoV8btvrzxTzgX8k2lP9LMdeL7g
+	QUERY: {}
+	BODY: {}
+[WORKER] GET /cookbook/api/recipe
+	FROM: ::1 | TIME: 2021-10-26T10:54:53.378Z
+	WPID: 39023
+	HEADER: host:localhost:3000
+	HEADER: connection:keep-alive
+	HEADER: sec-ch-ua:"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"
+	HEADER: sec-ch-ua-mobile:?0
+	HEADER: user-agent:Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36
+	HEADER: sec-ch-ua-platform:"Linux"
+	HEADER: accept:*/*
+	HEADER: sec-fetch-site:same-origin
+	HEADER: sec-fetch-mode:cors
+	HEADER: sec-fetch-dest:empty
+	HEADER: referer:http://localhost:3000/cookbook/
+	HEADER: accept-encoding:gzip, deflate, br
+	HEADER: accept-language:it-IT,it;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6
+	HEADER: cookie:connect.sid=s%3AcbvrWDY6gFGxxDrJCmhWl8iAv4UjhRZP.f%2FwC8dGdCyBjvRd6pTlnpl7KXJE5BcALLmveZ3%2BpNN4
+	QUERY: {}
+	BODY: {}

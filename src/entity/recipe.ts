@@ -6,10 +6,10 @@ export default class Recipe {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @CreateDateColumn({type: "datetime"}) //tyme: "timestamp"
+    @CreateDateColumn({type: "timestamp"})
     creation: Date;
     
-    @UpdateDateColumn({type: "datetime"}) //tyme: "timestamp"
+    @UpdateDateColumn({type: "timestamp"})
     update: Date;
 
     @Column()

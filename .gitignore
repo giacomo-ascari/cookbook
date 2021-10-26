@@ -1,4 +1,6 @@
 ormconfig.json
+keycloak.json
+js
 
 # Logs
 logs
