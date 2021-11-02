@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/giacomo-ascari/cookbook#readme",
   "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/express-session": "^1.17.4",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "colorts": "^0.1.63",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-session": "^1.17.2",

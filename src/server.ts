@@ -1,6 +1,5 @@
 // IMPORTS
 import express from "express";
-import cors from 'cors';
 import router, { init } from './router';
 import cluster from "cluster";
 import log from "./utils/log";
@@ -62,9 +61,9 @@ async function main() {
             origin: `http://localhost:${process.env.PORT}`,
             credentials: true
         }))*/
-        app.use(cors());
-        app.use(base_url, express.static("public"));
-        app.use(base_url + "/api", router.router as express.Router);
+        
+        app.set('trust proxy', true );
+        app.use(base_url, router.router as express.Router);
 
         let server: http.Server = http.createServer(app)
         server.listen(process.env.PORT || 80)

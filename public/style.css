@@ -10,6 +10,7 @@
     margin-bottom: 1.5rem;
     background-color: rgba(0, 123, 255, .1);
     border: 1px solid rgba(0, 123, 255, .15);
+    border-radius: 5px;
 }
 
 .themed-container {

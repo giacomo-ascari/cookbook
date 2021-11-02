@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Giacomo Ascari">
+  <title>Ricettario - modifica</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+
+  <script type="text/javascript" src="keycloak.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body class="py-4" onload="initKeycloak();">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col">
+        <h1>Ricettario</h1>
+      </div>
+      <div class="col-md-auto">
+        <form class="d-flex">
+          <button class="btn btn-outline-primary" onclick="">Salva</button>
+        </form>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div id="recipe_template" style="display: None;">
+      <h1>title</h1>
+      <h2>subtitle</h2>
+      <h3>from</h3>
+      <i>update</i>
+      <hr>
+      <p>ingredients</p>
+      <p>method</p>
+      <p>notes</p>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>

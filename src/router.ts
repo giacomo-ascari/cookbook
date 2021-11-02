@@ -3,8 +3,11 @@ import log from "./utils/log";
 import delay from './utils/delay';
 import uuid from "./utils/uuid";
 
-import express from "express";
+import express, { json } from "express";
 // helmet, morgan, compress
+import https from "https";
+import cors from 'cors';
+
 
 import session from 'express-session';
 import Keycloak from 'keycloak-connect';
@@ -16,8 +19,10 @@ import Recipe from "./entity/recipe";
 
 // ROUTING STUFF
 let router: express.Router = express.Router();
+
+router.use(cors());
 router.use(express.json())
-router.use(express.urlencoded({ extended: false }))
+router.use(express.urlencoded({ extended: true }))
 
 // SESSION + KEYCLOAK
 let memoryStore = new session.MemoryStore();
@@ -30,7 +35,8 @@ router.use(session({
     store: memoryStore
 }));
 
-router.use(keycloak.middleware({ logout: '/logoff' } ));
+router.use(keycloak.middleware({logout:"/logout"}));
+router.use("", express.static("public"));
 
 // INITIALIZE MODULE
 export async function init(stop = false) {
@@ -55,6 +61,8 @@ router.use((req: express.Request, res: express.Response, next: express.NextFunct
                 info += `\n\tHEADER: ${prop}:${req.headers[prop]}`;
     if (req.query) info += "\n\tQUERY: " + JSON.stringify(req.query);
     if (req.body) info += "\n\tBODY: " + JSON.stringify(req.body);
+    if (req.session) info += "\n\tSESSION: " + JSON.stringify(req.session);
+    if (req.cookies) info += "\n\tCOOKIES: " + JSON.stringify(req.cookies);
     log("worker", info);
     next();
 });
@@ -65,13 +73,63 @@ router.use((req: express.Request, res: express.Response, next: express.NextFunct
 });*/
 
 // TEST FUNCTION
-router.get("/test", async (req: express.Request, res: express.Response) => {
-    await delay(500);
+router.get("/api/test", async (req: express.Request, res: express.Response) => {
+    await delay(100);
     res.status(200).send('Test Ok')
 });
 
+router.get("/api/test-auth", keycloak.protect(), async (req: express.Request, res: express.Response) => {
+    await delay(100);
+    res.status(200).send('Test Auth Ok')
+});
+
+/*
+router.get("/login", async (req: express.Request, res: express.Response) => {
+    try {
+        let username = req.query["username"]  as string;
+        let password = req.query["password"]  as string;
+        let options = {
+            hostname: process.env.HOSTNAME,
+            port: 443,
+            path: `/auth/realms/${process.env.REALM}/protocol/openid-connect/token`,
+            method: 'POST'
+          };
+        let request = https.request(options, (response) => {
+            res.json(response);
+        }).on('error', (e) => {
+            throw new Error();
+        });
+        request.setHeader("Content-Type", "application/x-www-form-urlencoded");
+        request.write(`grant_type=password`);
+        request.write(`&client_id=${process.env.RESOURCE}`);
+        request.write(`&client_secret=${process.env.SECRET}`);
+        request.write(`&username=${username}`);
+        request.write(`&password=${password}`);
+        request.end();
+    } catch (exc) {
+        res.status(500).send("Errore generico in POST recipe");
+    }
+});*/
+
+router.get("/api/init-recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
+    try {
+        let recipe: Recipe = new Recipe();
+        recipe.title = "strudel";
+        recipe.subtitle = "strudel di mele";
+        recipe.from = "franca";
+        recipe.ingredients = "cose commestibili si spera";
+        recipe.method = "passo 1 e 2";
+        recipe.notes = "attento";
+        let repo = db.getRepository(Recipe);
+        recipe = await repo.save(repo.create(recipe));
+        res.json(recipe);
+    } catch (exc) {
+        res.status(500).send("Errore generico in GET init-recipe");
+    }
+});
+
 // CRUD
-router.post("/recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
+router.post("/api/recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
     try {
         let recipe: Recipe = new Recipe();
         recipe.title = req.body.title;
@@ -88,7 +146,7 @@ router.post("/recipe", keycloak.protect(), async (req: express.Request, res: exp
     }
 });
 
-router.get("/recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
+router.get("/api/recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
     try {
         let query: string = "rid";
         let id: number | undefined = req.query[query]  as number | undefined;
@@ -109,7 +167,7 @@ router.get("/recipe", keycloak.protect(), async (req: express.Request, res: expr
     }
 });
 
-router.put("/recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
+router.put("/api/recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
     try {
         let query: string = "rid"
         let id: number | undefined = req.query[query]  as number | undefined;
@@ -136,7 +194,7 @@ router.put("/recipe", keycloak.protect(), async (req: express.Request, res: expr
     }
 });
 
-router.delete("/recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
+router.delete("/api/recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
     try {
         let query: string = "rid";
         let id: number | undefined = req.query[query]  as number | undefined;
