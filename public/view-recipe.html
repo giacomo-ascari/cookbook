@@ -15,10 +15,11 @@
   <link rel="icon" href="favicon.ico">
 
   <script type="text/javascript" src="keycloak.js"></script>
+  <script type="text/javascript" src="keycloak-utils.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body class="py-4" onload="initKeycloak(get_recipe);">
+<body class="py-4" onload="init_keycloak(get_recipe);">
 
   <div class="container">
 
@@ -28,7 +29,9 @@
       </div>
       <div class="col-md-auto">
         <form class="d-flex">
-          <button class="btn btn-outline-primary" onclick="goto_edit()">Modifica</button>
+          <button class="btn btn-outline-primary" type="button" onclick="goto_home();">Home</button>
+          <button class="btn btn-outline-primary" type="button" onclick="goto_edit();" style="margin-left: 3px;">Modifica</button>
+          <button class="btn btn-outline-danger" type="button" onclick="goto_delete();" style="margin-left: 3px;">Elimina</button>
         </form>
       </div>
     </div>
@@ -41,9 +44,9 @@
       <h3>from</h3>
       <i>update</i>
       <hr>
-      <p>ingredients</p>
-      <p>method</p>
-      <p>notes</p>
+      <p class="multiline">ingredients</p>
+      <p class="multiline">method</p>
+      <p class="multiline">notes</p>
     </div>
 
 

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Giacomo Ascari">
+  <title>Ricettario</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+
+  <script type="text/javascript" src="keycloak.js"></script>
+  <script type="text/javascript" src="keycloak-utils.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body class="py-4" onload="init_keycloak(get_recipes);">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col">
+        <h1>Ricettario</h1>
+      </div>
+      <div class="col">
+        <div class="d-flex">
+          <input id="search_input" class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
+          <button class="btn btn-outline-success" type="button" onclick="search();">Cerca</button>
+          <button class="btn btn-outline-primary" type="button" onclick="goto_add();" style="margin-left: 3px;">Aggiungi</button>
+          <a class="btn btn-outline-danger" href="/cookbook/logout" style="margin-left: 3px;">Logout</a>
+        </div>
+    </div>
+    <br><br>
+    <div id="recipe_list"></div>
+    <div id="recipe_template" class="row themed-container-light" style="display: None;">
+      <div class="col">
+        <h2>title</h2>
+        <h4>subtitle</h4>
+        <p>from</p>
+      </div>
+      <div class="col-sm-auto">
+        <p style="font-style: italic;">update</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

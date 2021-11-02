@@ -15,10 +15,11 @@
   <link rel="icon" href="favicon.ico">
 
   <script type="text/javascript" src="keycloak.js"></script>
+  <script type="text/javascript" src="keycloak-utils.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body class="py-4" onload="initKeycloak();">
+<body class="py-4" onload="init_keycloak(build_editor);">
 
   <div class="container">
 
@@ -28,24 +29,28 @@
       </div>
       <div class="col-md-auto">
         <form class="d-flex">
-          <button class="btn btn-outline-primary" onclick="">Salva</button>
+          <button class="btn btn-outline-primary" type="button" onclick="goto_home();">Home</button>
+          <button class="btn btn-outline-primary" type="button" onclick="save_recipe();" style="margin-left: 3px;">Salva</button>
         </form>
       </div>
     </div>
 
     <br><br>
 
-    <div id="recipe_template" style="display: None;">
-      <h1>title</h1>
-      <h2>subtitle</h2>
-      <h3>from</h3>
-      <i>update</i>
-      <hr>
-      <p>ingredients</p>
-      <p>method</p>
-      <p>notes</p>
-    </div>
-
+    <form id="recipe_form" style="display: None;">
+      <h3>Titolo</h3>
+      <input class="form-control" type="text" placeholder="Titolo" id="recipe_title">
+      <h3>Sottotitolo</h3>
+      <input class="form-control" type="text" placeholder="Sottotitolo" id="recipe_subtitle">
+      <h3>Autore</h3>
+      <input class="form-control" type="text" placeholder="Autore" id="recipe_from">
+      <h3>Ingredienti</h3>
+      <textarea class="form-control" placeholder="Ingredienti" id="recipe_ingredients" rows="12"></textarea>
+      <h3>Procedimento</h3>
+      <textarea class="form-control" placeholder="Procedimento" id="recipe_method" rows="12"></textarea>
+      <h3>Note</h3>
+      <textarea class="form-control" placeholder="Note" id="recipe_notes" rows="6"></textarea>
+    </form>
 
   </div>
 

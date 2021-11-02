@@ -111,23 +111,6 @@ router.get("/login", async (req: express.Request, res: express.Response) => {
     }
 });*/
 
-router.get("/api/init-recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
-    try {
-        let recipe: Recipe = new Recipe();
-        recipe.title = "strudel";
-        recipe.subtitle = "strudel di mele";
-        recipe.from = "franca";
-        recipe.ingredients = "cose commestibili si spera";
-        recipe.method = "passo 1 e 2";
-        recipe.notes = "attento";
-        let repo = db.getRepository(Recipe);
-        recipe = await repo.save(repo.create(recipe));
-        res.json(recipe);
-    } catch (exc) {
-        res.status(500).send("Errore generico in GET init-recipe");
-    }
-});
-
 // CRUD
 router.post("/api/recipe", keycloak.protect(), async (req: express.Request, res: express.Response) => {
     try {

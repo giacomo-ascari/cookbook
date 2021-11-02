@@ -14,39 +14,26 @@
   <link href="style.css" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
 
-  <script type="text/javascript" src="keycloak.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </head>
 
-<body class="py-4" onload="initKeycloak(get_recipes);">
+<body class="py-4">
 
   <div class="container">
-
     <div class="row">
       <div class="col">
         <h1>Ricettario</h1>
       </div>
-      <div class="col">
-        <form class="d-flex">
-          <input id="search_input" class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
-          <button class="btn btn-outline-success" type="button" onclick="search();">Cerca</button>
-          <button class="btn btn-outline-primary" type="button" onclick="goto_add();">Aggiungi</button>
-          <a class="btn btn-outline-danger" href="/cookbook/logout">Logout</a>
-        </form>
     </div>
-    <br>
-    <div id="recipe_list"></div>
-    <div id="recipe_template" class="row themed-container-light" style="display: None;">
+    <div class="row">
       <div class="col">
-        <h2>title</h2>
-        <h4>subtitle</h4>
-        <p>from</p>
-      </div>
-      <div class="col-md-auto">
-        <p>update</p>
+        <h4>Questo sito web utilizza i cookie</h4>
+        <p>
+          Proseguendo su questo sito si accetta esplicitamente l'uso di cookie. I cookie non sono rivolti a fini commerciali o pubblicitari, bensì alle minime funzionalità di autenticazione e accesso a risorse riservate ai soli utenti autorizzati. Non vengono raccolti dati sensibili o tracciabili all'identità fisica dell'utente stesso.
+        </p>
+        <a class="btn btn-outline-primary" href="/cookbook/cookbook.html">Prosegui</a>
       </div>
     </div>
-
   </div>
 
 </body>
