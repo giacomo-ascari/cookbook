@@ -48,7 +48,7 @@ function render_recipes() {
                 if (second_node.textContent && second_node.tagName != "BUTTON") {
                     if (second_node.textContent == "update") {
                         let date = new Date(elem[second_node.textContent]);
-                        second_node.textContent = date.getDay() + "/" + date.getMonth() + "/" + date.getFullYear();
+                        second_node.textContent = date.getDate() + "/" + (date.getMonth()+1) + "/" + date.getFullYear();
                     } else {
                         second_node.textContent = elem[second_node.textContent];
                     }
