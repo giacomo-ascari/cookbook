@@ -87,10 +87,17 @@ function render_recipe() {
     recipe_template.style = "display;"
     recipe_template.childNodes.forEach(node => {
         if (node.textContent && node.tagName != "BUTTON") {
-            let value = recipe[node.textContent];
-            if (value) {
-                node.textContent = value;
+            if (node.textContent == "update") {
+                let date = new Date(recipe["update"]);
+                node.textContent = date.getDate() + "/" + (date.getMonth()+1) + "/" + date.getFullYear();
+                node.textContent += " - " + date.getHours() + ":" + date.getMinutes();
+            } else {
+                let value = recipe[node.textContent];
+                if (value) {
+                    node.textContent = value;
+                }
             }
+            
         }
     })
 }
